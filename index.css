@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    color:rgb(131, 119, 119);
+}
+
+/* start style for parent container and grid layout*/
+.parent-container{
+  display: grid;
+  grid-template-columns: 250px auto;
+  grid-template-rows: 100% auto;
+  background-size:cover; 
+}  
+/*END+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_*/
+
+/*  start side panel styles*/
+#side-panel{
+    background:#f6f6f8;
+}
+#user-pack{
+    display:flex;
+    flex-direction: column;
+    margin:50px 0 0 0;
+}
+#user-pic{
+    border:2px solid blue;
+    width:125px;
+    height:125px;
+    border-radius:50%;
+    margin: 0 auto;
+}
+.user-details{
+    margin: 0 auto;
+    padding: 15px;
+}
+#main-links #link{
+    display: flex;
+    padding: 15px;
+    color: rgb(131, 119, 119);
+    text-decoration: none;
+    border-bottom:1px solid  rgb(131, 119, 119);
+    font-size: 16px;
+    font-weight: 300;
+}
+#accessBtn{
+    display: flex;
+    flex-direction: column;
+    margin:5px;
+}
+#btn1{
+    width:100px;
+    height:40px;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    background:blue;
+    border:none;
+    border-radius:0.5em;
+    margin: 0 auto;
+    box-shadow: 0 0 10px #7b9dca; 
+}
+ #btn2{
+    width:200px;
+    height:40px;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    background:blue;
+    border:none;
+    border-radius:0.5em;
+    margin: 0 auto;
+    box-shadow: 0 0 10px #7b9dca;
+}
+.align-btn1{
+    margin:15px;
+}
+.align-btn2{
+    margin:15px;
+}
+#main{
+    background:#e3e3e3;
+}
+/*END+_+_+_++_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_+_*/
+.header{
+    display: flex;
+}
+#sub-link{
+    padding: 15px;
+    justify-content: space-between;
+    display: flex;
+}
+.link-wrapper a{
+    padding:10px;
+    text-decoration:none;
+    font-size:16px;
+    border-bottom: 2px solid transparent;
+    transition: .5s ease;
+}
+.link-wrapper a:hover{
+    border-bottom: 2px solid #3d3dff;
+    color:black;
+}
+.search-bar{
+    position: absolute;
+    left:45%;
+    justify-content: space-around;
+}
+#search-field{
+    height:35px;
+    width: 250px;
+    margin-right:5px;
+}
+#go{
+    height:35px;
+    width:50px;
+    background:blue;
+    color: white;
+    border:none;
+    border-radius: 0.5em;
+    font-size:16px;
+    box-shadow: 0 0 10px #7b9dca;
+}
+.logo{
+text-align:right;
+margin-left: auto;
+padding: 15px;
+
+}
+
+
